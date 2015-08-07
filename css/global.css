@@ -1,0 +1,30 @@
+@charset "utf-8";
+body {
+	font-family: 'Open Sans', san-serif;
+}
+#stream {
+	min-width: 400px;
+}
+#analysis {
+	float: right;
+	width: 300px;
+	border: 8px solid #f00;
+	padding: 2px 14px 15px 14px;
+	border-radius: 20px;
+	margin: 20px;
+	position: static;
+	top: 20px;
+	right: 20px;
+}
+.count {
+	background: #f00;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+	margin: 0 10px 0 0;
+	padding: 0;
+	display: inline-block;
+}
+.singleResult {
+	display: block;
+}
